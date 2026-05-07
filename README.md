@@ -31,27 +31,6 @@ O projeto foi desenvolvido inteiramente no ecossistema moderno do Android:
 * **[Retrofit]:** Cliente HTTP type-safe para consumo da API do OpenWeather.
 * **Navegação (Navigation Compose):** Gerenciamento de rotas.
 
-##  Como Executar o Projeto
-
-### Pré-requisitos
-* Android Studio atualizado (versão Iguana ou superior recomendada).
-* Emulador ou dispositivo físico rodando Android 8.0 (API 26) ou superior.
-* Uma chave de API gratuita do [OpenWeatherMap](https://openweathermap.org/api).
-
-### Passo a Passo
-1. Faça o clone do repositório:
-```bash
-git clone [https://github.com/SeuUsuario/claro-weather-app.git](https://github.com/SeuUsuario/claro-weather-app.git)
-Abra o projeto no Android Studio.
-
-Configure a sua chave de API:
-
-Navegue até o arquivo RetrofitClient.kt no pacote data/api.
-
-Certifique-se de que a BASE_URL esteja utilizando o protocolo https://.
-
-Insira a sua chave do OpenWeatherMap onde for solicitado.
-
 Faça o "Sync" do Gradle e clique em Run (Shift + F10).
 
 1. Faça o clone do repositório:
